@@ -1,26 +1,5 @@
 <script setup lang="ts">
-  import { ref } from "vue";
-
-  const items: any = [
-    { text: "Apply in\na single tap" },
-    { text: "Chat to the\nbusiness owner" },
-    { text: "Stand out with\nyour profile" },
-    { text: "Find jobs. Chat\ndirect. Get hired" },
-    { text: "Explore thousands\nof local jobs" },
-    { text: "Apply in\na single tap" },
-    { text: "Chat to the\nbusiness owner" },
-    { text: "Stand out with\nyour profile" }
-  ];
-
-  const active: any = ref(4);
-
-  setInterval(() => {
-    if (active.value === 7) {
-      active.value = 0;
-    } else {
-      active.value =  4;
-    }
-  }, 1000);
+   
 </script>
 
 <template>
